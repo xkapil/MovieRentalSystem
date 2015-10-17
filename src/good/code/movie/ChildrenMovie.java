@@ -1,4 +1,6 @@
-package good.code;
+package good.code.movie;
+
+import good.code.movie.Movie;
 
 /**
  * Created by kapil on 17/10/15.

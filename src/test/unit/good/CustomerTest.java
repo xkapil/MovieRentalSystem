@@ -1,6 +1,10 @@
 package test.unit.good;
 
 import good.code.*;
+import good.code.movie.ChildrenMovie;
+import good.code.movie.Movie;
+import good.code.movie.NewReleaseMovie;
+import good.code.movie.RegularMovie;
 import org.junit.Assert;
 
 /**

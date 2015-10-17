@@ -1,5 +1,7 @@
 package good.code;
 
+import good.code.movie.Movie;
+
 /**
  * Created by kapil on 17/10/15.
  */
@@ -23,7 +25,7 @@ public class Rental {
     }
 
     public int getFrequentRenterPoints() {
-        return movie.calculateBonusPoints(daysRented);
+        return movie.calculateBonusPoints();
     }
 
     public double getAmountForEachRental() {
