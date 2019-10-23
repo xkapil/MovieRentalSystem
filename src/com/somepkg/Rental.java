@@ -1,13 +1,9 @@
-package good.code;
+package com.somepkg;
 
-import good.code.movie.Movie;
 
-/**
- * Created by kapil on 17/10/15.
- */
 public class Rental {
 
-    Movie movie;
+    private Movie movie;
 
     private int daysRented;
 
@@ -23,13 +19,4 @@ public class Rental {
     public int getDaysRented() {
         return daysRented;
     }
-
-    public int getFrequentRenterPoints() {
-        return movie.calculateBonusPoints();
-    }
-
-    public double getAmountForEachRental() {
-        return movie.getAmount(daysRented);
-    }
-
 }

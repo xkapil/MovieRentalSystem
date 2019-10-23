@@ -1,8 +1,6 @@
-package bad.code;
+package com.somepkg;
 
-/**
- * Created by kapil on 17/10/15.
- */
+
 public class Movie {
 
     public static final int CHILDRENS = 2;

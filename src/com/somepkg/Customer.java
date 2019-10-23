@@ -1,11 +1,8 @@
-package bad.code;
+package com.somepkg;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by kapil on 17/10/15.
- */
 public class Customer {
     private String name;
 
